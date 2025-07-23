@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 20vh;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Choose color</h1>
+        <div class="buttons">
+            <button onclick="changeColor('blue')">Blue</button>
+            <button onclick="changeColor('green')">Green</button>
+            <button onclick="changeColor('yellow')">Yellow</button>
+            <button onclick="changeColor('purple')">Purple</button>
+            <button onclick="changeColor('default')">default</button>
+        </div>
+    </div>
+    <script src="colorflipper.js"></script>
+</body>
+</html>
